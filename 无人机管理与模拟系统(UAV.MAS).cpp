@@ -1461,10 +1461,10 @@ void MF() {
 			system("cls");
 			cout << Head_Str
 			     << "【关于开发者·获取开源·彩蛋】" << endl;
-			system("start https://JularDepick.github.io/Yuameng/Expand/Page/About_Designer_Page_for_UAV_MAS/");
+			system("start https://github.com/JularDepick");
 			Sleep(500);
 			cout << endl << "尝试访问:";
-			string src = "https://JularDepick.github.io/Yuameng/Expand/Page/About_Designer_Page_for_UAV_MAS/";
+			string src = "https://github.com/JularDepick";
 			for (int i = 0; i < int(src.size()); i++) {
 				cout << src[i];
 				Sleep(10);
